@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Portfolio/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+  <script src="/Portfolio/script.js" defer></script>
+  <title>My Portfolio</title>
+  <link rel="icon" href="/Portfolio/favicon6.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="header">
+
+      <div class="container">
+        <nav>
+          <img class = "logo" src="/Portfolio/favicon6.png" alt="">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li><li><a href="#services">Skills</a></li>
+            <li><a href="#portfolio">Projects</a>
+            </li>
+            <li><a href="#contact ">Contact</a><li>
+            <li><i class="bi bi-brightness-high-fill" id="toggle"></i></li>
+            <i class="bi bi-x-lg" id="response" onclick="closeMenu()"></i>
+          </ul>
+          <i class="bi bi-list" id="response" onclick="openMenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>Software Developer</p>
+          <h1>Hi, I'm <span class="name">Gold</span> Amaechi<br>from London</h1>
+          <button class="cv" onclick="window.open('cv.pdf', '_blank')"> View my CV</button>
+      
+        </div>
+      </div>
+
+    </div>
+
+<!------ About ----------->
+<div id="about">
+  <div class="container">
+
+    <div class="row">
+      
+      <div class="about-col-1">
+          <img src="/Images/about2.jpg" alt="">
+      </div>
+
+      <div class="about-col-2">
+        <h2 class="sub-title">About Me</h2>
+        <p>Hi, my name is Gold Amaechi, a trainee <span class="about-me">full stack developer</span> based in London, UK.</p> 
+        <p>I recently complete a <span class="about-me">12 week Skills Bootcamp</span> in Software Development. It was great solving challenges and building project.</p> 
+        <p>I love puzzles, which might explain why <span class="about-me">I love coding</span> so much, it's like one big puzzle.</p>
+        <br>
+        <p class="tab-links">Education</p>
+        <ul class="tab-contents">
+                <li>06/23-09/23<br><span class="about-me">JUST IT Bootcamp: </span>Software Development 
+                <br>
+                A 12 week intensive bootcamp covering the fundamentals of web and software development.
+                <br>
+                I supplemented my learning with further research and by building projects.
+                I was able to discuss with mentors and peers, gave and received feedback on projects.</li>
+
+                <li>02/21-10/21<br><span class="about-me">Royal College of Physicians: </span>Postgraduate Diploma in Paediatrics</span></li>
+
+                <li>09/14-05/19<br><span class="about-me">Trinity College Dublin: </span>Bachelor of Medicine, Surgery and Obstetrics</span></li>
+                
+                </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!------ Services -->
+  <div id="services">
+    <div class="container">
+      
+        <h3 class="sub-title">My skills</h3>
+      
+      <div class="services-list">
+
+        <div>
+          <p> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+          </p>
+        </div>
+
+        <div>
+          <p> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+          </p>
+        </div>
+
+        <div>
+          <p> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+          </p>
+        </div>
+
+        <div>
+          <p> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
+          </p>
+        </div>
+
+        <div>
+          <p> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" />
+          </p>
+        </div>
+
+        <div>
+          <p>  
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" />
+          </p>
+        </div>
+
+        <div>
+          <p> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+          </p>
+        </div>
+
+        <div>
+          <p> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
+          </p>
+        </div>
+
+        <div>
+          <p> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+          </p>
+        </div>
+
+        <div>
+          <p> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" />
+          </p>
+        </div>
+
+
+        <!-- <div>
+          <i class="bi bi-6-circle-fill"></i> 
+          <h2>Great Gal</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laudantium animi, amet aliquid rerum sint.</p>
+          <a href="http://" target="_blank">Learn More</a>
+        </div> -->
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio -->
+  <div id="portfolio">
+    <div class="container">
+      <h3 class="sub-title">My Work</h3>
+      <div class="work-list">
+
+        <div class="work">
+          <video src="/videos/joke.mp4" autoplay loop muted></video>
+          <div class="layer">
+            <h3>Dad Joke Generator</h3>
+            <span class="about-me">JavaScript, API, HTML, CSS</span>
+            <p>This app will keep you cracking up for hours.</p>
+            <a href="/Dad Joke generator/jokes.html" target="_blank"><i class="bi bi-link"></i></a>
+            <p>Click the button above to see</p>
+          </div>
+        </div>
+
+        <div class="work">
+          <video src="/videos/filmflix.mp4" autoplay loop muted></video>
+          <div class="layer">
+            <h3>FilmFlix</h3>
+            <span class="skills-used">Python, HTML, CSS</span>
+            <p>If you love films then you will love this app, you can view your film collection, add to it and even update it. </p>
+            <a href="/Portfolio/filmflix.html" target="_blank"><i class="bi bi-link"></i></a>
+            <p>Click the button above to see</p>
+          </div>
+        </div>
+
+        <div class="work">
+          <video src="/videos/Review box.mp4" autoplay loop muted></video>
+          <div class="layer">
+            <h3>Feedback App</h3>
+            <span class="skills-used">JavaScript, HTML, CSS</span>
+            <p>Your feedback is important to us. <br>You can leave a review to let us know how we are doing.</p>
+            <a href="/Feedback/feedback.html" target="_blank"><i class="bi bi-link"></i></a>
+            <p>Click the button above to see</p>
+          </div>
+        </div>
+
+        <div class="work">
+          <video src="/videos/YouTube.mp4" autoplay loop muted></video>
+          <div class="layer">
+            <h3>YouTube Clone</h3>
+            <span class="skills-used">HTML, CSS</span>
+            <p>My first project. <br>This YouTube clone helps you get to know me a bit better.</p>
+            <a href="/YouTube/youtube.html" target="_blank"><i class="bi bi-link"></i></a>
+            <p>Click the button above to see</p>
+          </div>
+        </div>
+        
+      </div>
+      <a class="btn" href="/Portfolio/more.html" target="_blank">See more</a>
+    </div>
+  </div>
+
+  <!-- contact -->
+  <div id="contact">
+    <div class="container">
+
+      <div class="row contact-box" >
+
+        <div class="contact-left">
+          <h3 class="sub-title">Contact me</h3>
+          <p> &#128231 goldamaechi1@gmail.com</p>
+          <p>&#x260F +44 78 402 65336</p>
+
+          <div class="social-icons row">
+  
+              
+            <div><a href="https://twitter.com/GoldSDev" target="_blank">
+              <i class="devicon-twitter-original colored"></i>
+            </a></div>
+
+            <div id="git"><a href="https://github.com/gold-amaechi?tab=repositories" target="_blank">
+                <i class="devicon-github-original-wordmark colored"></i>
+            </a></div>
+            
+           <div> <a href="https://www.linkedin.com/in/gold-amaechi-95832b28a/" target="_blank">
+            <i class="devicon-linkedin-plain colored"></i>
+          </a></div>
+          </div>
+
+        </div>
+
+        <div class="contact-right">
+            <form action="https://formsubmit.co/goldamaechi1@gmail.com" target="_blank" method="POST">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="text" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    &copy Gold Amaechi
+  </footer>
+</body>
+</html>
